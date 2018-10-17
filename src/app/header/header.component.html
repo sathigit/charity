@@ -1,0 +1,681 @@
+
+<section id="affix">
+  <div class="container-fluid small" >
+        <div class="row">
+          <p class=" row mail" ><i class="material-icons "> mail</i>&nbsp;help@armswideopen.com</p>
+          <p class="row phonenumber"><i class="material-icons"> call</i>&nbsp;213,4567,789</p>
+          <!-- <p class="row search"><i class="material-icons"> search</i><input type="search" placeholder="search"> </p> -->
+          <a href="#" class="row login "><i class="material-icons"> keyboard_tab</i>login</a>
+          <a href="#" class=" row signup"><i class="material-icons"> account_circle</i>signup</a>
+        </div>
+    </div> 
+  </section>
+  
+    <nav class="navbar navbar-expand-md navbar-dark  sticky-top" data-spy="affix" style="margin-top: 20px" >
+      
+      <a class="navbar-brand" href="#"><img src="../../assets/Logo-04.png" alt="ooopss" style="width:90px;height:40px;"></a>
+      <button class="navbar-toggler hidden-sm-up" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div [ngbCollapse]="isNavbarCollapsed" class="collapse navbar-collapse" id="navbarsDefault">
+        <ul class="navbar-nav ml-auto">
+          <!-- <li class="nav-item dropdown" ngbDropdown>
+            <a class="nav-link dropdown-toggle" id="id01" href="#" ngbDropdownToggle>Files</a>
+            <div class="dropdown-menu" aria-labelledby="id01" ngbDropdownMenu>
+              <a class="dropdown-item" href="#">HTML</a>
+              <a class="dropdown-item" href="#">TS</a>
+              <a class="dropdown-item" href="#">JS</a>
+            </div>
+          </li> -->
+          <li class="nav-item active">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+              <a href="#section1" class="nav-link">Initiatives</a>
+            </li>
+            <li class="nav-item">
+                <a href="#section2" class="nav-link">Causes</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#section3" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section3" class="nav-link">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#section3" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section3" class="nav-link">Contact Us</a>
+                      </li>
+        </ul>
+      </div>
+    </nav>
+  
+    <!--Showcase slider-->
+  <section id="showcase">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1  active">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block">
+                <h3 class="first-line">United to save lives in the face of any crisis!</h3>
+                <h1 class="display-3">Arms Wide Open</h1>
+                <p class="lead">We are an NGO that stands for reaching out to various social concerns affecting 
+                  society & people who are in need dire help & assistance. Since we thoroughly monitor the 
+                  landscape for any crisis that has taken place,our collective aim is to make sure that no 
+                  life is endangered or lost.</p>
+                 <a href="#" class="btn btn-default btn-sm ">Do Your Part</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="carousel-item carousel-image-2 ">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block  md-5">
+                <h3 class="first-line">Do the deed to save those in need! </h3>
+                <h1 class="display-3">Bound by Blood Program </h1>
+                <p class="lead">As an NGO, AWO’s primary operation is donating blood to those who don’t have an easy access to it. By eliminating financial, bureaucratical or circumstantial hurdles, we aim to provide an easier channel for people to have access to blood, in order to save the lives of their loved ones. Be a hero in their journey & donate blood today! </p>
+                <a href="#" class="btn btn-primary btn-lg">Donate Blood</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="carousel-item carousel-image-3 ">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-right md-5">
+                <h3 class="first-line">Contribute NOW, because you can make the difference!</h3>
+                <h1 class="display-3">Our Active Causes </h1>
+                <p class="lead">A large part of our day-to-day operations is dedicated towards monitoring different causes & hosting the means to provide considerable resources to overturn any crisis. But this operation of ours is never over without your involvement since every ounce of help & support counts in the long run!</p>
+                <a href="#" class="btn btn-success btn-lg">Help Now</a>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>  
+    </section>
+  
+    <!-- ourmission -->
+    <section id="ourmission">
+        <!-- <div class="container">
+            <div class="card" >
+                <div class="row ">
+                  <div class="col-md-4 ">
+                    <img class="card-img-left" src="" alt="Card image"  >
+                    </div>
+                    <div class="col-md-8 ">
+                        <h4 class="card-title">HELPING FOR EDUCATION TO SYRAIN CHILD & FOOD PLANTING</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>
+                          </div><br>
+                          <h6 class="bar">Rs 44,210<sub> Raised of <b>Rs 99,541</b> Goal</sub></h6><br>
+                        <a href="#" class="btn btn-default btn-sm"><b>Share Love</b></a>
+                    </div>
+                  </div>
+                </div>
+                </div> -->
+      <div class="container small ">
+        <h1 class="header">OUR MISSION AT <b>ARMS WIDE OPEN</b></h1>
+        <p class="p">At Arms Wide Open, you can find us being proactive with all our core <br>missions at any given point in time. Since we’re familiar with the cost of losing a life, be it in families or in a society,<br> all the members of our community are engaged 24x7 in either one or all of these mission mandates: </p>
+      
+        <div class="row">
+      <div class="col-md-4">
+        <h1 class="text-uppercase">Donations</h1>
+        <p>With the world becoming increasingly conservative & high-walled, it’s easy for us to close our eyes to others’ misfortunes. Some blame misinformation for this problem while others are not convinced that their contributions are reaching the right people. To act as a solution to these dilemmas, we’ve chosen to act as an honest platform where people can donate resources that are needed by the needy. From blood to non-perishable goods in the face of disasters, we collect items of grave importance so that the people who suffer in times of crisis, are never left behind. </p>
+        <a href="#" class="btn btn-default btn-sm text-white">Donate Now</a>
+      </div>
+      <div class="col-md-4">
+          <h1 class="text-uppercase">Volunteering</h1>
+          <p>A mission as ambitious & noble as that of saving other people’s lives demands a workforce that is committed to making a difference. At AWO, there will always be times when we’ll need all the help we can get in order to subvert the effects of any crisis. If you wish to impact others’ lives for the good, we promise you that AWO can be a great platform for putting your gifts into action! Like we urge each & every new member that joins us, it’s never too late to save lives.</p>
+          <a href="#" class="btn btn-default btn-sm text-white">Volunteer Now</a>
+        </div>
+        <div class="col-md-4">
+            <h1 class="text-uppercase">Fundraising </h1>
+            <p>Being an NGO that strives to contribute support towards active social concerns in the country, we monitor various emergencies at any given moment to lend a helping arm. As a result, we host many fundraising operations which can positively impact the lives of all those who’re caught in the crossfires of a crisis. In these circumstances, we like to remind people that your help today goes a long way towards preserving the lives of many others. We invite you to look into our ongoing fundraising campaigns & pitch in where it matters most.</p>
+            <a href="#" class="btn btn-default btn-sm text-white">Contribute Now</a>       
+          </div>
+      </div>
+      </div>
+    </section>
+  
+    <!-- PANINDIA -->
+  <section id="panindia">
+    <div class="container small center">
+      <div class="pan text-center">
+      <p>SAVING LIVES ACROSS THE COUNTRY </p>
+      <h1>PAN INDIA <b>INITIATIVES</b></h1>
+      <p>At Arms Wide Open, we don’t wait for disasters to strike in order to spring into action. The members of our community are constantly starting & undertaking new initiatives from time to time, in order to regularly make a difference to society. Here are some of our initiatives that are active right now: </p>
+    </div>
+      <div class="row">
+        <div class="col-10 col-sm-3 offset-sm-2">
+          <div class="card shadow  rounded">
+            <img class="card-image-top" src="" alt="Card Image" >
+            <div class="card-body">
+              <h3 class="card-title"><b>BOUND BY BLOOD</b></h3>
+              <h6 class="card-text">BE A PART OF OUR BLOOD DONATION PROGRAM </h6>
+              <p>Desperate situations arise everyday where people need access to blood, in order to save their loved ones. In order to facilitate this service for them without too many hassles, AWO has risen to the occasion by making blood donation its primary initiative. </p>
+              <a href="#" class="btn btn-default btn-sm">Read More</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-10 col-sm-3">
+            <div class="card shadow  rounded">
+              <img class="card-image-top" src="" alt="Card Image" >
+              <div class="card-body">
+                <h3 class="card-title"><b>SANTHRUPTHI</b></h3>
+                <h6 class="card-text">ELIMINATE POVERTY WITH OUR FOOD CONTRIBUTION PROGRAM</h6>
+                <p>AWO has undertaken ‘Santhrupthi’ - an initiative that will provide excess food (which is fresh but not consumed) from restaurants & other catering services to underprivileged people to combat starvation & malnutrition. </p>
+                  <a href="#" class="btn btn-default btn-sm">Read More</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-10 col-sm-3">
+              <div class="card shadow  rounded">
+                <img class="card-image-top" src="" alt="Card Image" >
+                <div class="card-body">
+                  <h3 class="card-title"><b>FAIRYTAILS</b></h3>
+                  <h6 class="card-text">SAVE ANIMALS’ LIVES WITH OUR ANIMAL RESCUE PROGRAM</h6>
+                  <p>For animals that are discarded by irresponsible owners & societies alike, we at AWO save these creatures & provide them with a loving home under our ‘Fairytales’ animal rescue initiative. </p>
+                  <a href="#" class="btn btn-default btn-sm">Read More</a>
+                </div>
+              </div>
+            </div>
+      </div>
+          <div class="row mr-5 ">
+              <a class="card" href="#myCarousel" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="card" href="#myCarousel" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+          </div>
+    </div>
+  </section>
+  <section id="background">
+  
+  </section>
+  
+  <!-- VOLUNTEER -->
+  
+  <section id="volunteer">
+    <div class="container small">
+      <h2><b>HEROES FOREVER</b> </h2>
+      <h6>TAKE YOUR INITIAL STEP TOWARDS BEING A HERO! </h6>
+      <p>We at AWO have no qualms in admitting that our successes are all thanks to the members of our community. When many of us can come together with a unified vision of making a difference to others, we believe that nothing can stand in our way to make a better world. Here’s your chance to pitch in via. working with us through many of our causes & initiatives!</p>
+      <a href="#" class="btn btn-default btn-sm">Volunteer Now</a>
+    </div>
+  </section>
+  
+  <!-- OURRECENTCAUSES -->
+  
+  <section id="ourrecentcauses">
+      <div class="container small center">
+        <div class="pan text-center">
+        <p>Active Causes Running </p>
+        <h1>Make Your Contribution  <b>Today!</b></h1>
+        <p>We’re currently hosting these fundraising operations which can positively impact the lives of those who’re caught in the crossfires of these emergencies. Every rupee counts & we assure you that your contribution will reach the needy. </p>
+      </div>
+        <div class="row">
+          <div class="col-10 col-sm-3 offset-sm-2">
+            <div class="card shadow  rounded">
+              <img class="card-image-top" src="" alt="Card Image" >
+              <div class="card-body">
+                  <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>
+                    </div>
+                    <h6 class="card-title">Kerala Floods Fundraising </h6>
+                    <h6 class="bar">Rs 5,00,000 <sub> raised out of <b>Rs 15,00,000 </b> </sub></h6>
+                
+                <p>Aid & relief are currently being provided to the people of Kerala whose lives were affected by the floods.  </p>
+                <a href="#" class="btn btn-default btn-sm">Donate </a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-10 col-sm-3">
+              <div class="card shadow  rounded">
+                <img class="card-image-top" src="" alt="Card Image" >
+                <div class="card-body">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>
+                      </div>
+                       <h6 class="card-title">Nagaland Floods Fundraising </h6>
+                      <h6 class="bar">Rs 2,00,000<sub> raised out of <b>Rs 10,00,000</b> Goal</sub></h6>
+                    <p>Rescue operations are underway in Nagaland to save the people who’re caught in the midst of the floods.</p>
+                    <a href="#" class="btn btn-default btn-sm">Donate </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-10 col-sm-3">
+                <div class="card shadow  rounded">
+                  <img class="card-image-top" src="" alt="Card Image" >
+                  <div class="card-body">
+                      <div class="progress">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>
+                        </div>
+                        <h6 class="card-title">Kolkata Bridge Collapse Fundraising </h6>
+                        <h6 class="bar">Rs 1,00,000<sub> raised out of<b>Rs 5,00,000</b> Goal</sub></h6>
+                      <p>Those injured because of the collapse of the bridge are currently being treated in hospitals all round the city. </p>
+                      <a href="#" class="btn btn-default btn-sm">Read More</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+            <div class="row mr-5 ">
+                <a class="card" href="#myCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="card" href="#myCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+            </div>
+      </div>
+    </section>
+  
+  
+  <!-- UP COMMING EVENTS -->
+    <section id="upcomingevents">
+        <div class="container small center">
+          <div class="pan text-center">
+          <p class="text-uppercase">BUILDING HUMANITY, ONE ACTION AT A TIME</p>
+          <h1 class="text-uppercase">upcoming <b>events</b></h1>
+          <p>Here’s an event calendar of all the activities that are happening throughout the week. In case of any queries, please write to us in our query section & we’ll respond to you as soon as possible! </p>
+        </div>
+          <div class="row">
+            <div class="col-8 col-sm-4 offset-sm-2">
+              <div class="card shadow  rounded">
+                <img class="card-image-top" src="" alt="Card Image" >
+                <div class="card-body">                
+                      <h6><i class="material-icons">
+                          date_range
+                          </i>14 July | Food Donation Drive | Time: 5 PM </h6>
+                  <p>‘Santhrupthi’ is undertaking a food donation drive to a village near Hennur. To Volunteer, contact Event Lead for more details. </p>
+                  <a href="#" class="btn btn-default btn-sm">Share Event</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-8 col-sm-4">
+                <div class="card shadow  rounded">
+                  <img class="card-image-top" src="" alt="Card Image" >
+                  <div class="card-body">
+                      <h6><i class="material-icons">
+                          date_range
+                          </i>18 Aug | Bound by Blood Donation Camp | Time: 2 PM </h6>
+                      <p>‘Bound by Blood’ is running a blood donation camp for employees at Manyata Tech Park, Bengaluru. To volunteer, contact Event Lead for more details. </p>
+                      <a href="#" class="btn btn-default btn-sm">Share Event</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+              <div class="row mr-5 ">
+                  <a class="card" href="#myCarousel" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="card" href="#myCarousel" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+              </div>
+        </div>
+      </section>
+  <!-- OUR FEATURES -->
+  <section id="ourfeatures">
+      <div class="container small center">
+        <div class="pan">
+        <p class="text-uppercase">help to the poor people</p>
+        <h1 class="text-uppercase">our <b>features</b></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Esse nemo dicta molestiae molestias illo quae pariatur,<br> minima vitae quaerat aut!</p>
+      </div>
+      
+          
+              <div style="margin-top:100px;" class="row card-group">
+                <div class="card col-sm-4 m-2">
+                  <div  class="card-body row">
+                      <div  class="col-4 ">
+                        <img class="card-img-bottom" src="" alt="Card image cap" style="width:100%;height:80px;padding-top: 0%;background-color: red">
+                      </div>
+                      <div class="col-sm-8">
+                        <h5 class="card-title">Card title</h5>
+                        
+                        <p class="card-text">
+                            <a href="#" class="btn btn-default btn-sm">READ MORE</a>
+                        </p>
+                      </div>
+                </div>
+                </div>
+                <div class="card col-sm-4 m-2">
+                    <div  class="card-body row">
+                        <div style="padding-left:0px;" class="col-4">
+                          <img class="card-img-bottom" src="../../assets/Logo-01.png" alt="Card image cap" style="width:100%;height:50px;">
+                        </div>
+                        <div class="col-sm-8">
+                          <h5 class="card-title">Card title</h5>
+                          
+                          <p class="card-text">
+                              <a href="#" class="btn btn-default btn-sm">READ MORE</a>
+                          </p>
+                        </div>
+                  </div>
+                  </div>
+                  <div class="card col-sm-4 m-2" >
+                      <div  class="card-body row">
+                          <div style="padding-left:0px;" class="col-4">
+                            <img class="card-img-bottom" src="../../assets/Logo-01.png" alt="Card image cap" style="width:100%;height:50px;">
+                          </div>
+                          <div class="col-sm-8" >
+                            <h5 class="card-title">Card title</h5>
+                           
+                            <p class="card-text">
+                                <a href="#" class="btn btn-default btn-sm">READ MORE</a>
+                            </p>
+                          </div>
+                    </div>     
+              </div>
+            </div>
+  
+            <div style="margin-top:100px;" class="row card-group">
+              <div class="card col-sm-4 m-2">
+                <div  class="card-body row">
+                    <div  class="col-4 ">
+                      <img class="card-img-bottom" src="" alt="Card image cap" style="width:100%;height:80px;padding-top: 0%;background-color: red">
+                    </div>
+                    <div class="col-sm-8">
+                      <h5 class="card-title">Card title</h5>
+                      
+                      <p class="card-text">
+                          <a href="#" class="btn btn-default btn-sm">READ MORE</a>
+                      </p>
+                    </div>
+              </div>
+              </div>
+              <div class="card col-sm-4 m-2">
+                  <div  class="card-body row">
+                      <div style="padding-left:0px;" class="col-4">
+                        <img class="card-img-bottom" src="../../assets/Logo-01.png" alt="Card image cap" style="width:100%;height:50px;">
+                      </div>
+                      <div class="col-sm-8">
+                        <h5 class="card-title">Card title</h5>
+                        
+                        <p class="card-text">
+                            <a href="#" class="btn btn-default btn-sm">READ MORE</a>
+                        </p>
+                      </div>
+                </div>
+                </div>
+                <div class="card col-sm-4 m-2" >
+                    <div  class="card-body row">
+                        <div style="padding-left:0px;" class="col-4">
+                          <img class="card-img-bottom" src="../../assets/Logo-01.png" alt="Card image cap" style="width:100%;height:50px;">
+                        </div>
+                        <div class="col-sm-8" >
+                          <h5 class="card-title">Card title</h5>
+                         
+                          <p class="card-text">
+                              <a href="#" class="btn btn-default btn-sm">READ MORE</a>
+                          </p>
+                        </div>
+                  </div>     
+            </div>
+          </div>
+  
+            
+            <!-- <div style="margin-top:20px;" class="row card-group">
+                <div class="card col-4 m-2">
+                  <div  class="card-body row">
+                      <div  class="col-4">
+                        <img class="card-img-bottom" src="" alt="Card image cap" style="width:100%;height:50px;background-color: red;">
+                      </div>
+                      <div class="col-8">
+                        <h5 class="card-title">Card title</h5>
+                        
+                        <p class="card-text">
+                            <a href="#" class="btn btn-default btn-sm">READ MORE</a>
+                        </p>
+                      </div>
+                </div>
+                </div>
+                <div class="card col-4 m-2">
+                    <div  class="card-body row">
+                        <div style="padding-left:0px;" class="col-4">
+                          <img class="card-img-bottom" src="../../assets/Logo-01.png" alt="Card image cap" style="width:100%;height:50px;">
+                        </div>
+                        <div class="col-8">
+                          <h5 class="card-title">Card title</h5>
+                          
+                          <p class="card-text">
+                              <a href="#" class="btn btn-default btn-sm">READ MORE</a>
+                          </p>
+                        </div>
+                  </div>
+                  </div>
+                  <div class="card col-4 m-2" >
+                      <div  class="card-body row">
+                          <div style="padding-left:0px;" class="col-4">
+                            <img class="card-img-bottom" src="../../assets/Logo-01.png" alt="Card image cap" style="width:100%;height:50px;">
+                          </div>
+                          <div class="col-8" >
+                            <h5 class="card-title">Card title</h5>
+                           
+                            <p class="card-text">
+                              <a href="#" class="btn btn-default btn-sm">READ MORE</a>
+                            </p>
+                          </div>
+                    </div>
+                    
+              </div>
+            </div> -->
+          
+    </div>
+    </section>
+  
+  <!-- OUR PARTNERS -->
+  <section id="ourpartners">
+    <div class="container">
+      <div class="row">
+          <div class="col-8 col-sm-4 offset-sm-2">
+              <div class="card-body"> 
+                  <h3><b>OUR</b> PARTNERS</h3>              
+                <p>Here are all our partners & sponsors who help us embark on this heroic journey. </p>
+              </div>
+          </div>
+    
+          <div class="col-8 col-sm-4">
+                <div class="card-body">
+                    <h3>Have a Query?</h3>
+                  <div class="form-group">
+                        <label class="control-label" for="parameterValue"></label>
+                      <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Name">
+                      </div>
+                        <label class="control-label" for="parameterValue"></label>
+                      <div class="form-inline">
+                        <input type="phonenumber" class="col-sm-6 form-control" placeholder="Ph.no">
+                        <input type="email" class="col-sm-6 form-control" placeholder="Email">  
+                      </div>
+                         <label class="control-label" for="parameterValue"></label>
+                      <div class="input-group">
+                        <textarea type="text" class="form-control" placeholder="Query"></textarea>
+                      </div>
+                      <label class="control-label" for="parameterValue"></label>
+                      <div class="input-group">
+                        <a href="#" class="btn btn-default btn-sm">SEND NOW</a>
+                       </div> 
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+  </section>
+  
+  <!-- NEWSUPDATE -->
+  <section id="newsupdate">
+      <div class="container small center">
+        <div class="pan text-center">
+        <h3>LATEST <b>NEWS</b></h3>
+        <p>Here are the latest news articles from all over the country. </p>
+      </div>
+        <div class="row">
+          <div class="col-12 col-sm-3 ">
+            <div class="card shadow  rounded">
+              <img class="card-image-top" src="" alt="Card Image" >
+              <div class="card-body">
+                  <p class="text-muted row"><i class="material-icons">date_range</i>Sept. 20, 2018 </p>
+                <h6 class="card-text">Clean Up Drive Imminent After Ganesh Chaturthi Celebrations</h6>
+                <h6 class="card-text"><address>Location: Versova Beach, Mumbai</address></h6>
+                <!-- <a href="#" class="btn btn-default btn-sm"><address>Location: Versova Beach, Mumbai</address></a> -->
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-12 col-sm-3 ">
+              <div class="card shadow  rounded">
+                <img class="card-image-top" src="" alt="Card Image" >
+                <div class="card-body">
+                    <p class="text-muted row"><i class="material-icons">date_range</i>Oct. 2, 2018</p>
+                  <h6 class="card-text">Rains Continue At An All Time High In Garden City </h6>
+                  <h6 class="card-text"><address>Location: Bengaluru, Karnataka </address></h6>
+                  <!-- <a href="#" class="btn btn-default btn-sm">DONATE NOW</a> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-3 ">
+                <div class="card shadow  rounded">
+                  <img class="card-image-top" src="" alt="Card Image" >
+                  <div class="card-body">
+                      <p class="text-muted row"><i class="material-icons">date_range</i> Oct. 4, 2018 </p>
+                    <h6 class="card-text">Red Alert In Three Districts Of Kerala, Emergency Meet Held </h6>
+                    <h6 class="card-text"><address>Location:  Idukki / Palakkad / Thrissur </address></h6>
+                    <!-- <a href="#" class="btn btn-default btn-sm">DONATE NOW</a> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-3 ">
+                  <div class="card shadow  rounded">
+                    <img class="card-image-top" src="" alt="Card Image" >
+                    <div class="card-body">
+                        <p class="text-muted row"><i class="material-icons">date_range</i>Nov. 13, 2018 </p>
+                      <h6 class="card-text">Children’s Day Celebrations Postponed Due To Heavy Rains</h6>
+                      <h6 class="card-text"><address>Location:  New Delhi  </address></h6>
+                      <!-- <a href="#" class="btn btn-default btn-sm">DONATE NOW</a> -->
+                    </div>
+                  </div>
+                </div>            
+        </div>
+            <div class="row mr-5 ">
+                <a class="card" href="#myCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="card" href="#myCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+            </div>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container small">
+        <div class="row">
+          <div class="col-9 col-sm-3">
+              <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">INFORMATION</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, tempore.</p>
+                    <address>
+                      <div class="row">
+                        <i class="material-icons "> place</i>&nbsp; Tumkur, Karnataka,India<br>
+                        </div>
+                        <div class="row">
+                        <i class="material-icons "> mail</i><a href="https://gmail.com">&nbsp; hello@awo.org</a><br>
+                        </div>
+                        <div class="row">
+                            <i class="material-icons"> call </i>&nbsp; +91-973-997-2029
+                        </div>
+                    </address>
+                  </div>
+                </div>
+          </div>
+          <div class="col-9 col-sm-3">
+              <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">LATEST WORKS</h5>
+                    <p class="card-text"><b>Food is giving to them</b><br><sub>&nbsp;&nbsp;&nbsp;July 29,2018 By Obama</sub></p>
+                    <p class="card-text"><b>Buy some candy for childern</b><br><sub>&nbsp;&nbsp;&nbsp;July 29,2018 By Rayvin</sub></p>
+                    <p class="card-text"><b>Build a building for shelter</b><br><sub>&nbsp;&nbsp;&nbsp;July 29,2018 By Obama</sub></p>
+                  </div>
+                </div>
+          </div>
+          <div class="col-9 col-sm-3">
+              <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">INSTAGRAM</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Comming Soon</a>
+                  </div>
+                </div>
+          </div>
+        </div>
+        <hr>
+        <p class="text-center py-3 text-white">We are going buy copyrites by &copy;2019</p>
+      </div>
+    </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <!-- <section id="flip">
+    <div class="container">
+        <div class="row">
+          <h2>Info Card Flip</h2>
+          <div class="info-card">
+              <div class="front">
+                <img class="card-image" src="../../assets/4k.jpg">
+              </div>
+            <div class="back">
+              <h2>Gentlesir</h2>
+              <p>
+                Globally facilitate timely bandwidth vis-a-vis user friendly core competencies. Uniquely architect covalent e-tailers through viral Lorem ipsum dolor sit amet, con.
+              </p>
+              <div class="social">
+                <a href="#" class="social-icon facebook  animate"><span class="fa fa-facebook"></span></a>
+      
+                <a href="https://twitter.com/MichaelCanlas7" target="_blank" class=" social-icon twitter  animate"><span class="fa fa-twitter"></span></a>
+      
+                <a href="https://github.com/ironprice91" target="_blank" class=" social-icon github  animate"><span class="fa fa-github-alt"></span></a>
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+  
+  
+    
+  
+  
